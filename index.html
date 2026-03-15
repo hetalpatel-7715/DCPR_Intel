@@ -744,7 +744,7 @@
       </div>
       <div class="status-pill">
         <div class="status-dot"></div>
-        OpenRouter · Llama 3.3 70B · Live
+        OpenRouter · Gemini 2.0 Flash · Live
       </div>
     </div>
   </aside>
@@ -1160,7 +1160,7 @@ async function sendMessage() {
         'X-Title': 'DCPRIntel'
       },
       body: JSON.stringify({
-        model: 'meta-llama/llama-3.3-70b-instruct:free',
+        model: 'google/gemini-2.0-flash-exp:free',
         messages: openaiMessages,
         temperature: 0.2,
         max_tokens: 2048
